@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #F7F6F2;
+  --color-bg-card: #FDFCF8;
+  --color-text-base: #2C2C2E;
+  --color-brand: #5A5A40;
+  --color-brand-hover: #4A4A35;
+  --color-muted: #8C8C7E;
+  --color-border-light: #F0F0E0;
+  --color-blue-soft: #A8C5DA;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: var(--color-text-base);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes slowFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slow-fade-in {
+  animation: slowFadeIn 4.5s cubic-bezier(0.25, 1, 0.5, 1) forwards !important;
+}
+
