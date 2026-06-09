@@ -1,0 +1,6 @@
+{
+  "name": "今天，先做一只鸟",
+  "description": "一个以鸟类为主角的轻互动叙事网页小游戏，通过五步选择决定鸟生结局。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
